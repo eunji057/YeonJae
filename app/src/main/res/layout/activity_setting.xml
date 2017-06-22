@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_set"
+    tools:context="kr.hs.emirim.yeonjae0331.gume.SettingActivity">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:maxHeight="10dp"
+        android:maxWidth="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_but"/>
+
+    <LinearLayout
+        android:paddingTop="400dp"
+        android:paddingLeft="180dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:id="@+id/set_but1"
+            android:src="@drawable/info_app"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:maxHeight="200dp"
+            android:maxWidth="500dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:id="@+id/set_but2"
+            android:src="@drawable/info_dev"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:maxHeight="200dp"
+            android:maxWidth="500dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+</LinearLayout>

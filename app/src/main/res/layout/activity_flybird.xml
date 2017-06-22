@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:background="@drawable/bg_2"
+    tools:context="kr.hs.emirim.yeonjae0331.gume.FlyBirdActivity">
+
+    <ImageView
+        android:id="@+id/birdView"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bird_01"
+        android:layout_marginTop="80dp"
+        android:paddingTop="20dp"/>
+
+
+    <ImageButton
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/heart_but2"
+        android:layout_gravity="center"
+        android:id="@+id/bird_next"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignBottom="@id/birdView"/>
+
+</LinearLayout>
